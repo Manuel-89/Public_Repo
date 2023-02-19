@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "prettier", "plugin:node/recommended", "chai"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "func-names": "off",
+    "no-console": "off",
+    "object-shorthand": "off",
+    "spaced-comment": "off"
+  }
+}
